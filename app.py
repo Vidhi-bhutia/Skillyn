@@ -5,7 +5,6 @@ import json
 from dotenv import load_dotenv
 from helper import configure_genai, extract_pdf_text, prepare_prompt, get_gemini_response
 
-# ---------- Custom CSS for UI Enhancement ----------
 def set_custom_style():
     st.markdown("""
         <style>
@@ -166,3 +165,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
