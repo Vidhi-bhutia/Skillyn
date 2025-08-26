@@ -2,9 +2,6 @@
 
 Skillyn is an intelligent, user-friendly web application that leverages Google Gemini AI to analyze resumes against job descriptions. It provides actionable feedback, highlights missing keywords, and suggests improvements to help candidates optimize their resumes for Applicant Tracking Systems (ATS).
 
-
----
-
 ## Features
 
 - **Resume & Job Description Analysis:**
@@ -18,8 +15,6 @@ Skillyn is an intelligent, user-friendly web application that leverages Google G
 - **Modern UI:**
 	- Clean, responsive interface with custom styling for an enhanced user experience.
 
----
-
 ## How It Works
 
 1. **User uploads a resume (PDF) and pastes a job description.**
@@ -30,15 +25,11 @@ Skillyn is an intelligent, user-friendly web application that leverages Google G
 	 - List of missing keywords
 	 - Profile summary and improvement feedback
 
----
-
 ## Live Demo
 
 You can try Skillyn instantly, no installation required:
 
-👉 **[Skillyn on Streamlit Cloud](https://skillyn.streamlit.app/)**
-
----
+👉 **[Skillyn](https://skillyn.streamlit.app/)**
 
 ## Setup Instructions
 
@@ -75,16 +66,12 @@ streamlit run app.py
 ```
 - The app will open in your browser at `http://localhost:8501` by default.
 
----
-
 ## Usage
 
 1. **Paste the job description** in the provided text area.
 2. **Upload your resume** as a PDF file.
 3. Click **Analyze**.
 4. View your ATS match score, missing keywords, and personalized feedback.
-
----
 
 ## Project Structure
 
@@ -96,8 +83,6 @@ streamlit run app.py
 └── README.md           # Project documentation
 ```
 
----
-
 ## Technologies Used
 - **Python 3.11+**
 - **Streamlit** (UI)
@@ -105,14 +90,7 @@ streamlit run app.py
 - **PyPDF2** (PDF text extraction)
 - **dotenv** (Environment variable management)
 
----
-
-## Author
-**Vidhi Bhutia**  
-[LinkedIn](https://www.linkedin.com/in/vidhibhutia) | [GitHub](https://github.com/Vidhi-bhutia)
-
----
-
 ## Acknowledgements
 - Google Gemini AI for powerful language analysis
-- Streamlit for rapid web app development
+- Streamlit for rapid web app development 
+- Streamlit Cloud for hosting
